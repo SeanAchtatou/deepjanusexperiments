@@ -6,7 +6,7 @@ POPSIZE = 100
 STOP_CONDITION = "iter"
 #STOP_CONDITION = "time"
 
-NGEN = 100
+NGEN = 4000
 RUNTIME = 3600
 STEPSIZE = 10
 # Mutation Hyperparameters
@@ -42,6 +42,9 @@ GENERATE_ONE_ONLY = False
 
 MODEL2 = 'models/cnnClassifier_lowLR.h5'
 MODEL = 'models/cnnClassifier.h5'
+MODEL_TUNED1 = 'models/cnnClassifierTuned1.h5'
+MODEL_TUNED2 = 'models/cnnClassifierTuned1.h5'
+MODEL_TUNED3 = 'models/cnnClassifierTuned3.h5'
 #MODEL = "models/regular3"
 #MODEL = 'models/cnnClassifier_001.h5'
 #MODEL = 'models/cnnClassifier_op.h5'
