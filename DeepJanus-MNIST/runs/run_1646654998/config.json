@@ -1,0 +1,12 @@
+{
+    "K": "0.1",
+    "archive tshd": "4.0",
+    "budget": "4000",
+    "budget_type": "iter",
+    "label": "5",
+    "model": "models/cnnClassifierTuned3.h5",
+    "mut low": "0.01",
+    "mut up": "0.6",
+    "popsize": "100",
+    "reseed": "10"
+}
